@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <section class="myform">
+        <div class="name">
+            <h3>User Name</h3>
+            <input type="text" placeholder="Identifiant">
+            <div class="error"></div>
+         </div>
+        <div class="email">
+            <h3>Email</h3>
+            <input type="email" placeholder="email" required>
+            <div class="error"></div>
+        </div>
+        <div class="password">
+            <h3>Password</h3>
+            <input type="password" placeholder="mot de passe" required><br>
+            <div class="error"></div>
+        </div>
+        <footer>
+            <button type="submit" id="submit">Submit</button>
+        </footer>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
